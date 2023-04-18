@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Profile Webpage</title>
+
+</head>
+<body>
+	<header>
+		<h1 align="center">Welcome to my webpage</h1>
+		<h1 align="center">OLAGAPPAN R</h1>
+
+
+		<nav>
+			<ul>
+				<li><a href="{% url 'home' %}">Home</a></li>
+				<li><a href="{% url 'email' %}">Email</a></li>
+				<li><a href="{% url 'contact' %}">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section>
+			<h2>Technical Skills:</h2>
+			<p>Programming Language  : Python</p>
+			<p>Web Frameworks        : Django</p>
+			<p>Database              : Mysql</p>
+			<p>ML Framework          : matplotlib,numpy</p>
+
+		</section>
+		<section>
+			<h2>About me</h2>
+			<p>My name is [Olagappan]. I am a [Software Engineer].</p>
+		</section>
+
+		<section>
+			<h2>My Skills</h2>
+			<ul>
+				<li>HTML</li>
+				<li>CSS</li>
+				<li>JavaScript</li>
+				<li>Python</li>
+			</ul>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2023 My Webpage. All rights reserved.</p>
+	</footer>
+</body>
+</html>
